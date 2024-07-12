@@ -1,0 +1,56 @@
+body{
+    background-color: #9b9797;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.stopwatch{
+    background-image: url('images/food.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 90%;
+    max-width: 600px;
+    margin: 200px auto;
+    border-radius: 5px;
+    color: #fff;
+    box-shadow: 0 0 5px #000;
+    text-align: center;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons img{
+    width: 50px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.buttons img:nth-child(2){
+    width: 80px;
+    border-bottom: 30px;
+}
+
+.inputTimer{
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    background-color: #000;
+    color: #fff;
+}
+
+input{
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    background-color: #000;
+    color: #fff;
+}
